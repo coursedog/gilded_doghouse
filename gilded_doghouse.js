@@ -2,11 +2,11 @@
 After reading up about design patterns, 
 I've decided to use a strategy pattern to handle the update logic.
 
-I removed the earlier implmentation of if else chain because it 
-does not scale well and violates single responsibility principle.
+I removed the earlier implementation of if else chain because it 
+does not scale well and violates the single responsibility principle.
 
 The strategy-object approach is good for this problem(according to me): 
-it cleanly separates each item's behavior, keeps shared logic in one place
+It cleanly separates each item's behavior, keeps shared logic in one place
 
 But in case of more items, it would be better to use a 
 subclass or external registry.
